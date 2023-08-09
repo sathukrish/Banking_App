@@ -1,0 +1,65 @@
+/* Home.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: -80px;
+}
+
+.bank-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: -80px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 300px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #007BFF;
+  border: 1px solid #007BFF;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
