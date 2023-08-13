@@ -11,7 +11,7 @@ const AccountDetails = () => {
   const navigate = useNavigate();
 // console.log(username);
   useEffect(() => {
-    axios.get(`http://localhost:3000/account/${username}`)
+    axios.get(`https://database-2.crobnydairfb.eu-north-1.rds.amazonaws.com/account/${username}`)
       .then((response) => {
         setAccountDetails(response.data);
         setLoading(false);

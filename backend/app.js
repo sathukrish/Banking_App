@@ -15,6 +15,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
+
 // Routes
 app.use(fixedDepositRoutes);
 app.use(loginRoutes);
