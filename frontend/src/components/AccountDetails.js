@@ -11,7 +11,7 @@ const AccountDetails = () => {
   const navigate = useNavigate();
 // console.log(username);
   useEffect(() => {
-    axios.get(`https://ec2-13-49-240-240.eu-north-1.compute.amazonaws.com/account/${username}`)
+    axios.get(`ec2-13-49-240-240.eu-north-1.compute.amazonaws.com/account/${username}`)
       .then((response) => {
         setAccountDetails(response.data);
         setLoading(false);

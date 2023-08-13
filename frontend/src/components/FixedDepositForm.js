@@ -33,7 +33,7 @@ const FixedDepositForm = () => {
 
     const data = { amount, duration, username, Nicnum, Address, Phonenum };
 
-    axios.post('http://ec2-13-49-240-240.eu-north-1.compute.amazonaws.com/fixed-deposit', data)
+    axios.post('ec2-13-49-240-240.eu-north-1.compute.amazonaws.com/fixed-deposit', data)
       .then((response) => {
         alert(response.data.message);
         navigate(`/${username}`)

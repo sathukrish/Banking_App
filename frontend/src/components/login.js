@@ -30,7 +30,7 @@ const Login = () => {
     }
 
     try {
-      const response = await fetch('http://ec2-13-49-240-240.eu-north-1.compute.amazonaws.com/login', {
+      const response = await fetch('ec2-13-49-240-240.eu-north-1.compute.amazonaws.com/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
