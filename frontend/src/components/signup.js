@@ -41,7 +41,7 @@ const SignUp = () => {
       return;
     }
 
-    const response = await fetch('http://localhost:3000/signup', {
+    const response = await fetch('http://ec2-13-49-240-240.eu-north-1.compute.amazonaws.com/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
